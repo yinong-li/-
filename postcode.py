@@ -81,7 +81,7 @@ def loginpost(datas):
 print(decodemsg(16421077, "b262ac856f59a182dfc9f4ab6ca18710420ea551"))
 print(encodemsg(51907146, '{"errCode":0,"errMsg":"物品已被兑换完了"}'))
 
-datas = "t=39660841&v=a2266fedd5dabe76c64bee1080116d96d58bcbc19f2c722f0a0411ac8836abc2f373bf4e5aa8a8d773a99e4a6591121c19e00c4fffb8ecd8c2029f6624a403f7dc72a25ef3b0f976f746268c0a0c928bb054449025f3221010bbef5adfda3d007291ed8ea3dd4bb80298617e5e2192e226e9bc61"#此处可以填login抓包的全部参数，用于登录，实测不登录，只要ts足够大就能响应请求
+datas = "t=38057816&v=ae57d3c975599d78046cf9308d9de7fcf12f203eb7b2a757eabb084ec4fd963ab1f22039299dd8f06c493db94a9a77439fbd23c904f5a90719b03343c5e14f61b5f71264595f64f8089582073fb585bafbf98cd2f0e005acf65a830e72a5cbaa6f0eda134e6e90c95f32ead9a148722443d39a9c"#此处可以填login抓包的全部参数，用于登录，实测不登录，只要ts足够大就能响应请求
 uid = "B8D8E72C33407333485083AA468FBB0C" #个人的uid，右上角头像出可查看
 loginpost(datas) #发送登陆数据
 
